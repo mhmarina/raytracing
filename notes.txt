@@ -1,0 +1,7 @@
+https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/raytracing-algorithm-in-a-nutshell.html
+
+pathtracing:technique of initiating rays either from the eye or the light source
+
+backward ray tracing/ eye tracing: the rays start from the eye and towards the light source. Is more practical to implement in computer graphics.
+
+forward ray tracing: the rays start from the light source and reach the eyes. This is more in line with how lights acts in real life, however is impractical in computer graphics because there are many rays that do not necessarily reach the eye.
